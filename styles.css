@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Lobster';
+  height: 100vh;
+}
+
+.container {
+  background-image: linear-gradient(darkslategrey, black);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.dayDisplay {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.timeOfDay{
+  color: white;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 55%;
+  margin: 0 auto;
+}
+
+
+.timeText {
+  color: lightblue;
+  font-size: 2.5rem;
+  position: absolute;
+  margin: 0 auto; 
+  top: 70%;
+  
+}
+
+.containerAfternoon {
+  background-image: linear-gradient(white, goldenrod);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.dayDisplayAfternoon {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.timeDisplayAfternoon{
+  color: #757575;
+  font-size: 2.5rem;
+  position: absolute;
+  margin: 0 auto; 
+  top: 70%;
+  
+}
+
+.timeOfDayAfternoon{
+  color: #4a4a4a;
+  font-size: 3.5rem;
+/*   position: absolute;
+  top: 55%; */
+/*   margin: 0 auto; */
+}
+
+
+/* ------------------------------------- */
+
+.containerMorning {
+  background-image: linear-gradient(white, #0d7b82);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.dayDisplayMorning {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.timeDisplayMorning{
+ color: #4a4a4a;
+  font-size: 2.5rem;
+  position: absolute;
+  margin: 0 auto; 
+  top: 70%;
+}
+
+.timeOfDayMorning{
+  color: #4a4a4a;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 55%;
+  margin: 0 auto;
+}
