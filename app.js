@@ -61,7 +61,7 @@ function getData() {
     if (isAM && hourGreaterFive && isNotTwelve) {
       // let timeOfDay = document.getElementById("timeOfDay");
       timeOfDay.innerHTML = "(morning.)";
-    } else if ((isPM && isNotTwelve === false) || (isPM && hour < 8)) {
+    } else if ((isPM && isNotTwelve === false) || (isPM && hour < 7)) {
       timeOfDay.innerHTML = "(afternoon.)";
     } else {
       timeOfDay.innerHTML = "(night.)";
